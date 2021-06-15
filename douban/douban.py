@@ -33,7 +33,6 @@ for i in range(1, 9):
         movie_name = list.xpath('./div/div[2]/div[1]/a/span[1]/text()')[0]
         # 主题
         item = list.xpath('./div/div[2]/div[2]/p[2]/span/text()')[0]
-
         # 国家
         country = list.xpath('./div/div[2]/div[2]/p[1]/text()[2]')[0]
         # 演员
